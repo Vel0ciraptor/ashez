@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -33,10 +33,12 @@ export default function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/ashez" element={<Landing />} />
+            <Route path="/ashez/" element={<Landing />} />
             <Route path="/ashez/catalogo" element={<Catalogo />} />
             <Route path="/ashez/talleres" element={<Talleres />} />
             <Route path="/ashez/contacto" element={<Contacto />} />
             <Route path="/ashez/admin" element={<Admin />} />
+            <Route path="*" element={<Navigate to="/ashez" replace />} />
           </Routes>
         </main>
         <Footer />
