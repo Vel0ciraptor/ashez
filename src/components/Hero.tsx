@@ -24,14 +24,14 @@ export default function Hero() {
               Bordados, tejidos y piezas textiles únicas creadas con dedicación y amor por el arte artesanal.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 justify-center md:justify-start">
-              <Link
-                to="/catalogo"
+              <Link 
+                to="/catalogo" 
                 className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 hover:bg-primary-700 transition-colors"
               >
                 Ver Catálogo <ArrowRight className="w-5 h-5" />
               </Link>
-              <Link
-                to="/talleres"
+              <Link 
+                to="/talleres" 
                 className="inline-flex items-center gap-2 border border-stone-800 text-stone-800 px-6 py-3 hover:bg-stone-800 hover:text-white transition-colors"
               >
                 Talleres
@@ -39,16 +39,16 @@ export default function Hero() {
             </div>
           </div>
 
-          <div
+          <div 
             className="order-2 md:order-2 mt-10 md:mt-0"
             style={{
               transform: `translateY(${scrollY * 0.4}px)`,
               opacity: Math.max(0, 1 - scrollY / 700)
             }}
           >
-            <img
-              src="/assets/portafolio1.jpg"
-              alt="Arte Textil"
+            <img 
+              src="/assets/portafolio1.jpg" 
+              alt="Arte Textil" 
               className="w-full h-auto object-cover"
             />
           </div>
