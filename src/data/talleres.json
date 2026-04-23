@@ -1,0 +1,31 @@
+{
+  "talleres": [
+    {
+      "id": "1",
+      "titulo": "Taller de Bordado Básico",
+      "descripcion": "Aprende los fundamentos del bordado a mano. Cubriremos puntos básicos, elección de hilos y materiales.",
+      "ubicacion": "Estudio Ashez, Calle Artesanal 123, Ciudad",
+      "fecha": "2026-04-20T10:00:00",
+      "cupos": 8,
+      "disponibles": 5
+    },
+    {
+      "id": "2",
+      "titulo": "Taller de Tejido con Telar",
+      "descripcion": "Introducción al tejido en telar. Aprenderás a configurar el telar y técnicas básicas.",
+      "ubicacion": "Estudio Ashez, Calle Artesanal 123, Ciudad",
+      "fecha": "2026-04-27T14:00:00",
+      "cupos": 6,
+      "disponibles": 4
+    },
+    {
+      "id": "3",
+      "titulo": "Taller de Bordado Botánico",
+      "descripcion": "Taller especializado en bordado botánico. Reproduciremos plantas y flores.",
+      "ubicacion": "Estudio Ashez, Calle Artesanal 123, Ciudad",
+      "fecha": "2026-05-04T10:00:00",
+      "cupos": 8,
+      "disponibles": 6
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "imagenes": [
+    {
+      "id": "1",
+      "imagen": "/assets/portafolio1.jpg",
+      "descripcion": "Bordado floral en tonos suaves"
+    },
+    {
+      "id": "2",
+      "imagen": "/assets/portafolio2.jpg",
+      "descripcion": "Tapiz tejido con lana natural"
+    },
+    {
+      "id": "3",
+      "imagen": "/assets/portafolio3.jpg",
+      "descripcion": "Manta de alpaca suave"
+    },
+    {
+      "id": "4",
+      "imagen": "/assets/portafolio4.jpg",
+      "descripcion": "Bordado botánico vintage"
+    }
+  ]
+}

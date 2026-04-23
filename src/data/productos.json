@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Bordado Floral de Gardenia",
+      "descripcion": "Bordado a mano sobre tela de lino con hilos de seda. Diseño floral exclusivo inspirado en gardenias.",
+      "precio": 4500,
+      "imagen": "/assets/portafolio1.jpg",
+      "categoria": "bordado",
+      "tipo": "producto"
+    },
+    {
+      "id": "2",
+      "nombre": "Tapiz Tejido Artesanal",
+      "descripcion": "Tapiz de pared tejido a mano con lana natural. Colores tierras y textura orgánica.",
+      "precio": 8200,
+      "imagen": "/assets/portafolio2.jpg",
+      "categoria": "tejido",
+      "tipo": "producto"
+    },
+    {
+      "id": "3",
+      "nombre": "Manta de Alpaca Tejida",
+      "descripcion": "Manta suave de alpaca 100% tejida a mano. Perfecta para el invierno.",
+      "precio": 6200,
+      "imagen": "/assets/portafolio3.jpg",
+      "categoria": "tejido",
+      "tipo": "producto"
+    },
+    {
+      "id": "4",
+      "nombre": "Bordado Botánico Vintage",
+      "descripcion": "Bordado botánico con técnicas vintage. Hojas y flores sutiles en tonos pastel.",
+      "precio": 3800,
+      "imagen": "/assets/portafolio4.jpg",
+      "categoria": "bordado",
+      "tipo": "producto"
+    },
+    {
+      "id": "5",
+      "nombre": "Set de Hilos de Bordado",
+      "descripcion": "Set completo de hilos de seda para bordado. 50 colores diferentes.",
+      "precio": 850,
+      "imagen": "/assets/material1.jpg",
+      "categoria": "materiales_bordado",
+      "tipo": "material"
+    },
+    {
+      "id": "6",
+      "nombre": "Agujas de Bordado Premium",
+      "descripcion": "Pack de 25 agujas de bordado de diferentes tamaños.",
+      "precio": 250,
+      "imagen": "/assets/material2.jpg",
+      "categoria": "materiales_bordado",
+      "tipo": "material"
+    },
+    {
+      "id": "7",
+      "nombre": "Lana Natural Merino",
+      "descripcion": "Lana 100% merino para tejido. Disponible en 20 colores.",
+      "precio": 450,
+      "imagen": "/assets/material3.jpg",
+      "categoria": "materiales_tejido",
+      "tipo": "material"
+    },
+    {
+      "id": "8",
+      "nombre": "Agujas Circulares de Bambú",
+      "descripcion": "Set de agujas circulares de bambú. Tallas del 4 al 10.",
+      "precio": 380,
+      "imagen": "/assets/material4.jpg",
+      "categoria": "materiales_tejido",
+      "tipo": "material"
+    }
+  ]
+}
