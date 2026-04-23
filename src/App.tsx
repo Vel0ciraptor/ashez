@@ -27,18 +27,17 @@ function Landing() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ashez">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
           <Routes>
-            <Route path="/ashez" element={<Landing />} />
-            <Route path="/ashez/" element={<Landing />} />
-            <Route path="/ashez/catalogo" element={<Catalogo />} />
-            <Route path="/ashez/talleres" element={<Talleres />} />
-            <Route path="/ashez/contacto" element={<Contacto />} />
-            <Route path="/ashez/admin" element={<Admin />} />
-            <Route path="*" element={<Navigate to="/ashez" replace />} />
+            <Route path="/" element={<Landing />} />
+            <Route path="/catalogo" element={<Catalogo />} />
+            <Route path="/talleres" element={<Talleres />} />
+            <Route path="/contacto" element={<Contacto />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
         <Footer />

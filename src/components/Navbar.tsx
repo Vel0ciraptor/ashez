@@ -7,9 +7,9 @@ export default function Navbar() {
   const location = useLocation();
 
   const navLinks = [
-    { href: '/ashez/catalogo', label: 'Catálogo' },
-    { href: '/ashez/talleres', label: 'Talleres' },
-    { href: '/ashez/contacto', label: 'Contacto' },
+    { href: '/catalogo', label: 'Catálogo' },
+    { href: '/talleres', label: 'Talleres' },
+    { href: '/contacto', label: 'Contacto' },
   ];
 
   const isActive = (href: string) => location.pathname === href;
@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7EA]/95 backdrop-blur-sm border-b border-stone-100">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link to="/ashez" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-primary-500 flex items-center justify-center">
               <Scissors className="w-5 h-5 text-white rotate-90" />
             </div>
