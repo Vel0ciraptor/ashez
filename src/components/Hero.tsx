@@ -25,13 +25,13 @@ export default function Hero() {
             </p>
             <div className="mt-4 flex flex-wrap gap-4 justify-center md:justify-start">
               <Link 
-                to="/catalogo" 
+                to="/ashez/catalogo" 
                 className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 hover:bg-primary-700 transition-colors"
               >
                 Ver Catálogo <ArrowRight className="w-5 h-5" />
               </Link>
               <Link 
-                to="/talleres" 
+                to="/ashez/talleres" 
                 className="inline-flex items-center gap-2 border border-stone-800 text-stone-800 px-6 py-3 hover:bg-stone-800 hover:text-white transition-colors"
               >
                 Talleres

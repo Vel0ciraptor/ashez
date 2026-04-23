@@ -32,11 +32,11 @@ export default function App() {
         <Navbar />
         <main className="flex-1">
           <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/catalogo" element={<Catalogo />} />
-            <Route path="/talleres" element={<Talleres />} />
-            <Route path="/contacto" element={<Contacto />} />
-            <Route path="/admin" element={<Admin />} />
+            <Route path="/ashez" element={<Landing />} />
+            <Route path="/ashez/catalogo" element={<Catalogo />} />
+            <Route path="/ashez/talleres" element={<Talleres />} />
+            <Route path="/ashez/contacto" element={<Contacto />} />
+            <Route path="/ashez/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />

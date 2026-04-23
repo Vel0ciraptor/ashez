@@ -41,7 +41,7 @@ export default function TalleresPreview() {
         </div>
 
         <div className="text-center mt-8">
-          <Link to="/talleres" className="inline-block border border-stone-800 text-stone-800 px-6 py-3 hover:bg-stone-800 hover:text-white transition-colors">
+          <Link to="/ashez/talleres" className="inline-block border border-stone-800 text-stone-800 px-6 py-3 hover:bg-stone-800 hover:text-white transition-colors">
             Ver Todos los Talleres
           </Link>
         </div>

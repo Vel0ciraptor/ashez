@@ -34,7 +34,7 @@ export default function ContactoPreview() {
         </div>
 
         <div className="text-center mt-8">
-          <Link to="/contacto" className="inline-block bg-primary-600 text-white px-6 py-3 hover:bg-primary-700 transition-colors">
+          <Link to="/ashez/contacto" className="inline-block bg-primary-600 text-white px-6 py-3 hover:bg-primary-700 transition-colors">
             Contáctanos
           </Link>
         </div>
