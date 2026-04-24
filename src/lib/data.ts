@@ -25,17 +25,17 @@ export interface PortafolioImagen {
 }
 
 const STORAGE_KEYS = {
-  productos: 'ashez_productos',
-  talleres: 'ashez_talleres',
-  portafolio: 'ashez_portafolio',
+  productos: 'ashez_productos_v2',
+  talleres: 'ashez_talleres_v2',
+  portafolio: 'ashez_portafolio_v2',
 };
 
 const defaultProductos: Producto[] = [
-  { id: "1", nombre: "Bordado Floral de Gardenia", descripcion: "Bordado a mano sobre tela de lino con hilos de seda.", precio: 4500, imagen: "/assets/portafolio1.jpg", categoria: "bordado", tipo: "producto" },
-  { id: "2", nombre: "Tapiz Tejido Artesanal", descripcion: "Tapiz de pared tejido a mano con lana natural.", precio: 8200, imagen: "/assets/portafolio2.jpg", categoria: "tejido", tipo: "producto" },
-  { id: "3", nombre: "Manta de Alpaca Tejida", descripcion: "Manta suave de alpaca 100% tejida a mano.", precio: 6200, imagen: "/assets/portafolio3.jpg", categoria: "tejido", tipo: "producto" },
-  { id: "4", nombre: "Set de Hilos de Bordado", descripcion: "Set de hilos de seda. 50 colores.", precio: 850, imagen: "/assets/IMG_1307.jpg", categoria: "materiales_bordado", tipo: "material" },
-  { id: "5", nombre: "Agujas de Bordado Premium", descripcion: "Pack de 25 agujas.", precio: 250, imagen: "/assets/IMG_2521.jpg", categoria: "materiales_bordado", tipo: "material" },
+  { id: "1", nombre: "Bordado Floral de Gardenia", descripcion: "Bordado a mano sobre tela de lino con hilos de seda.", precio: 4500, imagen: `${import.meta.env.BASE_URL}assets/portafolio1.jpg`, categoria: "bordado", tipo: "producto" },
+  { id: "2", nombre: "Tapiz Tejido Artesanal", descripcion: "Tapiz de pared tejido a mano con lana natural.", precio: 8200, imagen: `${import.meta.env.BASE_URL}assets/portafolio2.jpg`, categoria: "tejido", tipo: "producto" },
+  { id: "3", nombre: "Manta de Alpaca Tejida", descripcion: "Manta suave de alpaca 100% tejida a mano.", precio: 6200, imagen: `${import.meta.env.BASE_URL}assets/portafolio3.jpg`, categoria: "tejido", tipo: "producto" },
+  { id: "4", nombre: "Set de Hilos de Bordado", descripcion: "Set de hilos de seda. 50 colores.", precio: 850, imagen: `${import.meta.env.BASE_URL}assets/IMG_1307.jpg`, categoria: "materiales_bordado", tipo: "material" },
+  { id: "5", nombre: "Agujas de Bordado Premium", descripcion: "Pack de 25 agujas.", precio: 250, imagen: `${import.meta.env.BASE_URL}assets/IMG_2521.jpg`, categoria: "materiales_bordado", tipo: "material" },
 ];
 
 const defaultTalleres: Taller[] = [
@@ -45,18 +45,18 @@ const defaultTalleres: Taller[] = [
 ];
 
 const defaultPortafolio: PortafolioImagen[] = [
-  { id: "1", imagen: "/assets/IMG_0575.jpg", descripcion: "Bordado floral delicado" },
-  { id: "2", imagen: "/assets/IMG_0578.jpg", descripcion: "Detalle de puntada" },
-  { id: "3", imagen: "/assets/IMG_0580.jpg", descripcion: "Trabajo en progreso" },
-  { id: "4", imagen: "/assets/IMG_0583.jpg", descripcion: "Bordado completo" },
-  { id: "5", imagen: "/assets/IMG_0584.jpg", descripcion: "Arte textil" },
-  { id: "6", imagen: "/assets/IMG_0588.jpg", descripcion: "Bordado vintage" },
-  { id: "7", imagen: "/assets/IMG_1307.jpg", descripcion: "Set de hilos" },
-  { id: "8", imagen: "/assets/IMG_2521.jpg", descripcion: "Agujas de bordado" },
-  { id: "9", imagen: "/assets/D2F651AD-65FF-421E-95B7-B342FFC29F9A.jpg", descripcion: "Obra 1" },
-  { id: "10", imagen: "/assets/d791cd66464cbf9d8559ce1bc52e7879.jpg", descripcion: "Obra 2" },
-  { id: "11", imagen: "/assets/E5F49CCA-5672-4833-B155-2C3DFF10D95E.jpg", descripcion: "Obra 3" },
-  { id: "12", imagen: "/assets/EEB65E07-4787-4070-8904-6B882929844B.jpg", descripcion: "Obra 4" },
+  { id: "1", imagen: `${import.meta.env.BASE_URL}assets/IMG_0575.jpg`, descripcion: "Bordado floral delicado" },
+  { id: "2", imagen: `${import.meta.env.BASE_URL}assets/IMG_0578.jpg`, descripcion: "Detalle de puntada" },
+  { id: "3", imagen: `${import.meta.env.BASE_URL}assets/IMG_0580.jpg`, descripcion: "Trabajo en progreso" },
+  { id: "4", imagen: `${import.meta.env.BASE_URL}assets/IMG_0583.jpg`, descripcion: "Bordado completo" },
+  { id: "5", imagen: `${import.meta.env.BASE_URL}assets/IMG_0584.jpg`, descripcion: "Arte textil" },
+  { id: "6", imagen: `${import.meta.env.BASE_URL}assets/IMG_0588.jpg`, descripcion: "Bordado vintage" },
+  { id: "7", imagen: `${import.meta.env.BASE_URL}assets/IMG_1307.jpg`, descripcion: "Set de hilos" },
+  { id: "8", imagen: `${import.meta.env.BASE_URL}assets/IMG_2521.jpg`, descripcion: "Agujas de bordado" },
+  { id: "9", imagen: `${import.meta.env.BASE_URL}assets/D2F651AD-65FF-421E-95B7-B342FFC29F9A.jpg`, descripcion: "Obra 1" },
+  { id: "10", imagen: `${import.meta.env.BASE_URL}assets/d791cd66464cbf9d8559ce1bc52e7879.jpg`, descripcion: "Obra 2" },
+  { id: "11", imagen: `${import.meta.env.BASE_URL}assets/E5F49CCA-5672-4833-B155-2C3DFF10D95E.jpg`, descripcion: "Obra 3" },
+  { id: "12", imagen: `${import.meta.env.BASE_URL}assets/EEB65E07-4787-4070-8904-6B882929844B.jpg`, descripcion: "Obra 4" },
 ];
 
 function loadData<T>(key: string, defaults: T[]): T[] {

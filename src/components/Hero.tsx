@@ -47,7 +47,7 @@ export default function Hero() {
             }}
           >
             <img 
-              src="/assets/portafolio1.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/portafolio1.jpg`} 
               alt="Arte Textil" 
               className="w-full h-auto object-cover"
             />

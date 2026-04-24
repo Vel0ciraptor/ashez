@@ -49,7 +49,7 @@ export default function KitBordado() {
           <div className="bg-[#FFF7EA] rounded-xl overflow-hidden">
             <div className="aspect-square bg-stone-100">
               <img 
-                src="/assets/IMG_1307.jpg" 
+                src={`${import.meta.env.BASE_URL}assets/IMG_1307.jpg`} 
                 alt="Kit de Bordado" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
